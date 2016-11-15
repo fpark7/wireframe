@@ -1,0 +1,183 @@
+body {
+	font-family: Arial;
+	font-size: 24px;
+	margin: 0;
+}
+
+.profile-pic img {
+	width: 400px;
+	border-radius: 100%;
+	border: 2px solid black;
+}
+
+.profile-pic {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+a {
+	color:green;
+}
+
+p {
+	font-family: Times New Roman;
+}
+
+.special {
+	color: purple;
+	margin: 0;
+}
+
+/* This is a comment */
+
+.headings {
+	width: 500px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+
+.top-section {
+	background: url(nyc.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.nav-bar {
+	background-color: #909090;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+.paragraphs {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.about-me {
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+/*
+	background: url(green-background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-color: pink;
+}
+
+.about-title {
+	padding-top: 50px;
+}
+
+.about-img {
+	display: inline-block;
+	width: 50%;
+	/*background-color: blue;*/
+}
+
+.about-img img {
+	width: 400px;
+	border-radius: 100%;
+}
+
+.about-body {
+	display: inline-block;
+	width: 50%;
+	/*background-color: red;*/
+	vertical-align: top;
+}
+
+.portfolio-1 {
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+.port-1-img img{
+	width: 70%;
+	text-align:center;
+}
+
+.portfolio-2 {
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+.port-2-img img{
+	width:70%;
+}
+
+.portfolio-3 {
+	width:32%;
+	display: inline-block;
+	vertical-align: top;
+}
+.port-3-img img{
+	width:70%;
+}
+
+.portfolio-title {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.portfolio {
+	text-align:center;
+	background-color:#bcead6;
+}
+.phone {
+	display:inline-block;
+}
+.phone-img {
+	display:inline-block;
+}
+.phone-img img {
+	width: 50px;
+}
+.phone-body {
+	display:inline-block;
+}
+.email {
+
+}
+.email-img {
+	display:inline-block;
+}
+.email-img img {
+	width: 50px;
+}
+.email-body {
+	display:inline-block;
+}
+
+.contact-me {
+	text-align: center;
+}
+
+.contact-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.about-img, .about-body {
+		width: 100%;
+	}
+}
